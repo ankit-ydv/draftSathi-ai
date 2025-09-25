@@ -1,73 +1,61 @@
-# Welcome to your Lovable project
+# draftSathi-ai
 
-## Project info
+draftSathi-ai is an AI-powered tool designed to help you generate drafts and content efficiently. This guide will walk you through setting up the project and understanding how it works.
 
-**URL**: https://lovable.dev/projects/61da4c52-2c85-4a48-be1a-816612ac7559
+## Features
 
-## How can I edit this code?
+- AI-driven content generation
+- Easy-to-use interface
+- Customizable prompts
 
-There are several ways of editing your application.
+## Prerequisites
 
-**Use Lovable**
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/61da4c52-2c85-4a48-be1a-816612ac7559) and start prompting.
+## Setup
 
-Changes made via Lovable will be committed automatically to this repo.
+1. *Clone the repository:*
+    bash
+    git clone https://github.com/ankit-ydv/draftSathi-ai.git
+    cd draftSathi-ai
+    
 
-**Use your preferred IDE**
+2. *Install dependencies:*
+    bash
+    npm install
+    # or
+    yarn install
+    
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+3. *Configure environment variables:*
+    - Copy .env.example to .env and update the required values (such as API keys).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+4. *Start the development server:*
+    bash
+    npm run dev
+    # or
+    yarn dev
+    
 
-Follow these steps:
+5. *Open the app:*
+    - Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## How It Works
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. Enter your prompt or topic in the input field.
+2. Click the "Generate" button.
+3. The AI processes your input and returns a draft or content suggestion.
+4. Edit or copy the generated content as needed.
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Contributing
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-**Edit a file directly in GitHub**
+## License
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project is licensed under the MIT License.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/61da4c52-2c85-4a48-be1a-816612ac7559) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Created by Ankit Meww
